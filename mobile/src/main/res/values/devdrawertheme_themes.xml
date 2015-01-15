@@ -3,16 +3,16 @@
 <!-- Generated with http://android-holo-colors.com -->
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
 
-  <style name="DevDrawerTheme" parent="android:Theme.Light">
+    <style name="DevDrawerTheme" parent="android:Theme.Light">
 
-    <item name="android:editTextStyle">@style/EditTextDevDrawerTheme</item>
+        <item name="android:editTextStyle">@style/EditTextDevDrawerTheme</item>
 
-    <item name="android:buttonStyle">@style/ButtonDevDrawerTheme</item>
+        <item name="android:buttonStyle">@style/ButtonDevDrawerTheme</item>
 
-    <item name="android:imageButtonStyle">@style/ImageButtonDevDrawerTheme</item>
-	
-	<item name="android:autoCompleteTextViewStyle">@style/AutoCompleteDevDrawerTheme</item>
+        <item name="android:imageButtonStyle">@style/ImageButtonDevDrawerTheme</item>
 
-  </style>
+        <item name="android:autoCompleteTextViewStyle">@style/AutoCompleteDevDrawerTheme</item>
+
+    </style>
 
 </resources>
