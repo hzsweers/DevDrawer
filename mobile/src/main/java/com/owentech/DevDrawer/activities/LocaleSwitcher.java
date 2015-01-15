@@ -1,6 +1,5 @@
 package com.owentech.DevDrawer.activities;
 
-import android.app.Activity;
 import android.app.ActivityManagerNative;
 import android.app.AlertDialog;
 import android.app.IActivityManager;
@@ -10,6 +9,7 @@ import android.content.SharedPreferences;
 import android.content.res.Configuration;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
+import android.support.v7.app.ActionBarActivity;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.util.Log;
@@ -26,7 +26,7 @@ import com.owentech.DevDrawer.utils.RootFeatures;
 
 import java.util.*;
 
-public class LocaleSwitcher extends Activity implements TextWatcher
+public class LocaleSwitcher extends ActionBarActivity implements TextWatcher
 {
 	ListView localeListView;
 	List<String> localeAutoCompleteList;

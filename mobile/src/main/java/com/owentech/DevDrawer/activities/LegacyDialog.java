@@ -1,17 +1,17 @@
 package com.owentech.DevDrawer.activities;
 
 import android.annotation.TargetApi;
-import android.app.Activity;
 import android.content.SharedPreferences;
 import android.os.Build;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
+import android.support.v7.app.ActionBarActivity;
 import android.view.Window;
 import android.widget.ListView;
 import com.owentech.DevDrawer.R;
 import com.owentech.DevDrawer.adapters.LegacyListAdapter;
 
-public class LegacyDialog extends Activity
+public class LegacyDialog extends ActionBarActivity
 {
 
 	ListView legacyListView;

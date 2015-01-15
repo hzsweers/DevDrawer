@@ -10,6 +10,7 @@ import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
+import android.support.v7.app.ActionBarActivity;
 import android.widget.Toast;
 import com.owentech.DevDrawer.R;
 import com.owentech.DevDrawer.appwidget.DDWidgetProvider;
@@ -24,7 +25,7 @@ import com.owentech.DevDrawer.utils.RootFeatures;
  * Time: 06:31
  * To change this template use File | Settings | File Templates.
  */
-public class ClickHandlingActivity extends Activity
+public class ClickHandlingActivity extends ActionBarActivity
 {
 	SharedPreferences sp;
 

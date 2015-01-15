@@ -1,6 +1,5 @@
 package com.owentech.DevDrawer.activities;
 
-import android.app.Activity;
 import android.appwidget.AppWidgetManager;
 import android.content.Context;
 import android.content.Intent;
@@ -8,6 +7,7 @@ import android.content.pm.PackageManager;
 import android.content.pm.ResolveInfo;
 import android.os.Build;
 import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.view.LayoutInflater;
@@ -35,7 +35,7 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-public class MainActivity extends Activity implements TextWatcher
+public class MainActivity extends ActionBarActivity implements TextWatcher
 {
 
 	Database database;
@@ -185,7 +185,7 @@ public class MainActivity extends Activity implements TextWatcher
 	}
 
 	@Override
-	public boolean onMenuItemSelected(int featureId, MenuItem item)
+	public boolean onOptionsItemSelected(MenuItem item)
 	{
 		switch(item.getItemId())
 		{

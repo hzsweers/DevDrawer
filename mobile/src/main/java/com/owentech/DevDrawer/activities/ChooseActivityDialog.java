@@ -1,12 +1,12 @@
 package com.owentech.DevDrawer.activities;
 
-import android.app.Activity;
 import android.content.ComponentName;
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
@@ -23,7 +23,7 @@ import java.util.List;
  * Time: 07:07
  * To change this template use File | Settings | File Templates.
  */
-public class ChooseActivityDialog extends Activity implements ListView.OnItemClickListener
+public class ChooseActivityDialog extends ActionBarActivity implements ListView.OnItemClickListener
 {
 
 	ListView listView;

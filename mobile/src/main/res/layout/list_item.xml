@@ -31,7 +31,7 @@
         android:layout_toRightOf="@+id/imageView"
         android:layout_toLeftOf="@+id/uninstallImageButton"
         android:layout_alignParentTop="true"
-        android:textAppearance="@android:style/TextAppearance.Holo.Small"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
         android:textSize="10dp"
         android:layout_marginLeft="5dp"
         android:paddingTop="5dp"

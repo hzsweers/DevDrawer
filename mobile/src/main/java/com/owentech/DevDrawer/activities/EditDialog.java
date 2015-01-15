@@ -1,8 +1,8 @@
 package com.owentech.DevDrawer.activities;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -16,7 +16,7 @@ import com.owentech.DevDrawer.utils.Constants;
  * Time: 20:58
  * To change this template use File | Settings | File Templates.
  */
-public class EditDialog extends Activity
+public class EditDialog extends ActionBarActivity
 {
 
 	EditText editText;
