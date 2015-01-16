@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.DevDrawer" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <!--<item name="colorPrimary">@color/primary</item>-->
+        <!--<item name="colorPrimaryDark">@color/primary_dark</item>-->
+        <!--<item name="colorAccent">@color/accent</item>-->
+
+        <item name="actionBarPopupTheme">@style/ThemeOverlay.AppCompat.Dark</item>
+
+        <!--<item name="actionBarStyle">@style/Widget.Styled.ActionBar</item>-->
+        <!--<item name="android:actionBarStyle">@style/Widget.Styled.ActionBar</item>-->
+        <item name="windowActionBar">true</item>
+        <!--<item name="android:windowBackground">@color/background</item>-->
+
+    </style>
+
+</resources>
