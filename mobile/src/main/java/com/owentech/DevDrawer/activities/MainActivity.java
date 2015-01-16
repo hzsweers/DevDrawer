@@ -58,11 +58,11 @@ public class MainActivity extends ActionBarActivity implements TextWatcher
 		// Set up ActionBar to use custom view (Robot Light font)
 		if (Build.VERSION.SDK_INT > Build.VERSION_CODES.HONEYCOMB)
 		{
-			getActionBar().setDisplayShowTitleEnabled(false);
+			getSupportActionBar().setDisplayShowTitleEnabled(false);
 			LayoutInflater inflater = LayoutInflater.from(this);
 			View customView = inflater.inflate(R.layout.custom_ab_title, null);
-			getActionBar().setCustomView(customView);
-			getActionBar().setDisplayShowCustomEnabled(true);
+			getSupportActionBar().setCustomView(customView);
+			getSupportActionBar().setDisplayShowCustomEnabled(true);
 		}
 
 		// Create the database tables
