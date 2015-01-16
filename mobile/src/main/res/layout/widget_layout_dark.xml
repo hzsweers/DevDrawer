@@ -16,5 +16,5 @@
         android:id="@+id/listView"
         android:divider="@null"
         android:dividerHeight="0dp"
-        android:background="@drawable/background_repeat_dark" />
+        android:background="@drawable/background_dark" />
 </RelativeLayout>

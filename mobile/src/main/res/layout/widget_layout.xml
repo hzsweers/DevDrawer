@@ -16,7 +16,7 @@
         android:id="@+id/listView"
         android:divider="@null"
         android:dividerHeight="0dp"
-        android:background="@drawable/background_repeat" />
+        android:background="@drawable/background_light" />
 
 
 </RelativeLayout>

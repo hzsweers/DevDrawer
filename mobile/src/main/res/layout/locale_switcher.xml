@@ -50,7 +50,7 @@
         android:id="@+id/localeListView"
         android:layout_alignParentLeft="true"
         android:layout_below="@+id/defaultLocaleButton"
-        android:background="@drawable/background_repeat" />
+        android:background="@drawable/background_light" />
 
     <ImageView
         android:layout_width="wrap_content"

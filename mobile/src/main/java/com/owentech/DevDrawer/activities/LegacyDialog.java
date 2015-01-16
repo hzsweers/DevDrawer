@@ -30,11 +30,11 @@ public class LegacyDialog extends ActionBarActivity
 		int bgResId = -1;
 		if(sharedPreferences.getString("theme", "Light").equals("Light"))
 		{
-		   bgResId = R.drawable.background_repeat;
+		   bgResId = R.drawable.background_light;
 		}
 		else
 		{
-		   bgResId = R.drawable.background_repeat_dark;
+		   bgResId = R.drawable.background_dark;
 		}
 		if (Build.VERSION.SDK_INT < Build.VERSION_CODES.JELLY_BEAN) {
 	      legacyListView.setBackgroundDrawable(getResources().getDrawable(bgResId));

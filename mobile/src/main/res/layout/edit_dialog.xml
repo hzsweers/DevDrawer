@@ -5,7 +5,7 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:minWidth="1000dp"
-    android:background="@drawable/background_repeat"
+    android:background="@drawable/background_light"
     android:baselineAligned="false">
 
     <EditText
