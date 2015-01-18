@@ -23,7 +23,7 @@
         </activity>
         <activity android:name=".activities.ClickHandlingActivity"
                   android:label="@string/app_name"
-                  android:theme="@style/Theme.AppCompat.Light.Dialog"
+                  android:theme="@style/Theme.DevDrawer.Dialog"
                   android:exported="true"
                   android:noHistory="true"
                   android:excludeFromRecents="true"
@@ -34,9 +34,9 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".activities.EditDialog" android:theme='@style/Theme.AppCompat.Light.Dialog'/>
+        <activity android:name=".activities.EditDialog" android:theme='@style/Theme.DevDrawer.Dialog'/>
         <activity android:name=".activities.PrefActivity"/>
-        <activity android:name=".activities.ChooseActivityDialog" android:theme="@style/Theme.AppCompat.Dialog"/>
+        <activity android:name=".activities.ChooseActivityDialog" android:theme="@style/Theme.DevDrawer.Dialog"/>
 
         <activity android:name=".activities.LegacyDialog"
                   android:theme="@android:style/Theme.Dialog"

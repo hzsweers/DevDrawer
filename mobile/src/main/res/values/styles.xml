@@ -11,4 +11,12 @@
         <item name="windowActionBar">true</item>
     </style>
 
+    <style name="Theme.DevDrawer.Dialog" parent="Theme.AppCompat.Light.Dialog">
+
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">?colorPrimary</item>
+        <item name="windowActionBar">false</item>
+    </style>
+
 </resources>
