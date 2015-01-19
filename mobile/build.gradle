@@ -8,7 +8,7 @@ android {
         versionCode 13
         versionName "1.5"
 
-        minSdkVersion 7
+        minSdkVersion 15
         targetSdkVersion 21
         applicationId "com.owentech.DevDrawer"
 
